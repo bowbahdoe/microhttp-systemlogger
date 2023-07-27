@@ -21,6 +21,7 @@ public class Main {
     public static void main(String[] args)
             throws IOException, InterruptedException {
         // These messages are noisy, so you likely want to
+        // leave this at the default level of TRACE.
         var logger = new SystemLogger(Level.INFO);
 
         var options = new Options()
