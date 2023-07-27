@@ -14,6 +14,8 @@ interface that delegates to the built-in JDK `System.Logger`.
 ```
 
 ```java
+import dev.mccue.microhttp.systemlogger.SystemLogger;
+
 import org.microhttp.EventLoop;
 import org.microhttp.Options;
 import org.microhttp.Response;
