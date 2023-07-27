@@ -1,11 +1,17 @@
-## Rosie adapter for microhttp
-
 ## What
 
 This module provides an implementation of [microhttp]()'s `Logger`
 interface that delegates to the built-in JDK `System.Logger`.
 
 ## Usage
+
+```xml
+<dependency>
+    <groupId>dev.mccue</groupId>
+    <artifactId>microhttp-systemlogger</artifactId>
+    <version>0.0.1</version>
+</dependency>
+```
 
 ```java
 import org.microhttp.EventLoop;
