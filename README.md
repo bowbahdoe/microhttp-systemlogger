@@ -9,7 +9,7 @@ interface that delegates to the built-in JDK `System.Logger`.
 <dependency>
     <groupId>dev.mccue</groupId>
     <artifactId>microhttp-systemlogger</artifactId>
-    <version>0.0.1</version>
+    <version>1.0.0</version>
 </dependency>
 ```
 
